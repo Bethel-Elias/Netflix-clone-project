@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/netflix-clone-project",
   plugins: [react()],
-})
+  server: {
+    port: 4000,
+  },
+});
